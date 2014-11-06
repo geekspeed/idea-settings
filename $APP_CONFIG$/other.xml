@@ -126,16 +126,6 @@
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Overstock" />
   </component>
-  <component name="CodeStyleSettingsManager">
-    <option name="PER_PROJECT_SETTINGS">
-      <value>
-        <XML>
-          <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
-        </XML>
-      </value>
-    </option>
-    <option name="PREFERRED_PROJECT_CODE_STYLE" value="bbcom" />
-  </component>
   <component name="CopyAsHtmlConfiguration">
     <option name="_addBorder" value="true" />
     <option name="_includeWarningHighlights" value="false" />
@@ -1048,45 +1038,6 @@
       <BeforeMethodRBrace Force="false" nBlankLines="0" />
       <NewlinesAtEOF Force="false" nBlankLines="0" />
     </Rearranger>
-  </component>
-  <component name="RecentDirectoryProjectsManager">
-    <option name="recentPaths">
-      <list>
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
-        <option value="$USER_HOME$/code/git/puppet" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-util" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/fitboards-app" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/store-wrapper" />
-        <option value="$USER_HOME$/code/git/appproperties" />
-        <option value="$USER_HOME$/Downloads/interviews/dan-freeman" />
-        <option value="$USER_HOME$/Downloads/interviews/sthilberg_products_code_challenge" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-build/artifacts-deploy" />
-        <option value="/tmp/ga" />
-        <option value="$USER_HOME$/Downloads/interviews/bb-code-challenge" />
-        <option value="$USER_HOME$/Downloads/interviews/angularDemoHttp" />
-        <option value="$USER_HOME$/Downloads/interviews/CSE Coding Challenge" />
-        <option value="/tmp/CSE Coding Challenge" />
-        <option value="/tmp" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-common/bb-js" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-build/bb-grunt/grunt-build-info" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/uploader-app" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/gallery-app" />
-        <option value="$USER_HOME$/code/git/assets" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-common" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/workout-tracker-app" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
-      </list>
-    </option>
-    <option name="lastPath" value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
   </component>
   <component name="RecentProjectsManager">
     <option name="recentPaths">
