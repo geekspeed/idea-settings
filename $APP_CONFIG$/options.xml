@@ -12,7 +12,7 @@
     <property name="DARTIUM_CHECKED_MODE_INITIALLY_ENABLED" value="true" />
     <property name="Non-Project Files" value="Yellow" />
     <property name="FileTemplates.CurrentTab" value="Templates" />
-    <property name="FileTemplates.SelectedTemplate" value="Html" />
+    <property name="FileTemplates.SelectedTemplate" value="AMD JavaScript File" />
     <property name="installation.uid" value="d39bd8c4-2cc5-4393-a753-0989f41d6ca4" />
   </component>
 </application>
