@@ -1,0 +1,1391 @@
+<application>
+  <component name="AAHackPluginComponent">
+    <option name="aaType" value="2" />
+    <option name="contrast" value="110" />
+  </component>
+  <component name="APIdoc.Config">
+    <option name="userCookie" value="" />
+    <option name="openToolWindowAtStartup" value="false" />
+    <option name="aliases">
+      <value>
+        <patternAlias>
+          <pattern>build.xml</pattern>
+          <alias>ant</alias>
+        </patternAlias>
+        <patternAlias>
+          <pattern>*.css</pattern>
+          <alias>css</alias>
+        </patternAlias>
+        <patternAlias>
+          <pattern>*.html</pattern>
+          <alias>html</alias>
+        </patternAlias>
+      </value>
+    </option>
+    <option name="defaultAlias" value="java" />
+    <option name="contextSearchGotoAlways" value="false" />
+    <option name="contextSearchGotoIfOneResult" value="true" />
+    <option name="searchOwnerClassForMembers" value="false" />
+    <option name="browserCommand" value="" />
+    <option name="siteRoot" value="http://apidoc.org/" />
+  </component>
+  <component name="AlternateApplicationComponent">
+    <alternateMappings active="true">
+      <mapping matchExpression="^Test(.*?)\.java$" replaceExpression="$1.java" />
+      <mapping matchExpression="^(.*?)\.java$" replaceExpression="Test$1.java" />
+    </alternateMappings>
+    <genericMappings active="true">
+      <genericPrefixPostfixItems>
+        <genericPrefixPostfixItem type="PREFIX" expression="[Tt]est_?" grouping="true" />
+        <genericPrefixPostfixItem type="PREFIX" expression="I(?=[A-Z])" grouping="true" />
+        <genericPrefixPostfixItem type="PREFIX" expression="Abstract(?=[A-Z])" grouping="true" />
+        <genericPrefixPostfixItem type="POSTFIX" expression="Impl" grouping="true" />
+        <genericPrefixPostfixItem type="POSTFIX" expression="[Tt]est" grouping="true" />
+        <genericPrefixPostfixItem type="POSTFIX" expression="(?:_\w{2}(?:_\w{2})?)" grouping="false" />
+      </genericPrefixPostfixItems>
+      <genericFileExtensionItems>
+        <genericFileExtensionItem fileExtension="java" />
+        <genericFileExtensionItem fileExtension="properties" />
+        <genericFileExtensionItem fileExtension="html?" />
+        <genericFileExtensionItem fileExtension="sql" />
+        <genericFileExtensionItem fileExtension="xml" />
+        <genericFileExtensionItem fileExtension="dtd" />
+        <genericFileExtensionItem fileExtension="xsd" />
+      </genericFileExtensionItems>
+    </genericMappings>
+  </component>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Inspections</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_NON_JAVA" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+    <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
+  <component name="BuildWatcher">
+    <BuildWatcher>
+      <server name="Hudson" username="btilford" password="T!lford2957">
+        <url>http://ci.overstock.com/hudson/api/xml/</url>
+        <interval>15</interval>
+        <system>HUDSON</system>
+      </server>
+      <popup server="Hudson" project="Trunk-PromoManager-2" />
+      <monitor server="Hudson" project="Trunk-PromoManager-2" status="FAILED" />
+    </BuildWatcher>
+  </component>
+  <component name="ChangesBarApplicationComponent">
+    <watchForCollisions>true</watchForCollisions>
+    <showPopup>true</showPopup>
+    <addCommentEditor>true</addCommentEditor>
+    <addChangelistScope>true</addChangelistScope>
+    <expandChangelistScope>true</expandChangelistScope>
+    <closeFilesWhenSwitchingChangelist>true</closeFilesWhenSwitchingChangelist>
+    <openFilesWhenSwitchingChangelist>false</openFilesWhenSwitchingChangelist>
+    <openFilesInBackground>true</openFilesInBackground>
+  </component>
+  <component name="CodeDependencyConfig">
+    <option name="MODULE_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="PACKAGE_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="CLASS_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="CLASS_GRAPH_EXCEPTION_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_TEST_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_EXCEPTION_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_DEPENDENCY_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_DEPENDENT_VISIBILITY" value="true" />
+    <option name="CLASS_NEIGHBOR_GRAPH_CROSSLINK_VISIBILITY" value="true" />
+    <option name="PACKAGE_NEIGHBOR_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="PACKAGE_NEIGHBOR_GRAPH_DEPENDENCY_VISIBILITY" value="true" />
+    <option name="PACKAGE_NEIGHBOR_GRAPH_DEPENDENT_VISIBILITY" value="true" />
+    <option name="PACKAGE_NEIGHBOR_GRAPH_CROSSLINK_VISIBILITY" value="true" />
+    <option name="MODULE_NEIGHBOR_GRAPH_LIBRARY_VISIBILITY" value="true" />
+    <option name="MODULE_NEIGHBOR_GRAPH_DEPENDENCY_VISIBILITY" value="true" />
+    <option name="MODULE_NEIGHBOR_GRAPH_DEPENDENT_VISIBILITY" value="true" />
+    <option name="MODULE_NEIGHBOR_GRAPH_CROSSLINK_VISIBILITY" value="true" />
+    <option name="CALCULATE_METRICS_CYCLES" value="true" />
+  </component>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Overstock" />
+  </component>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value>
+        <XML>
+          <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+        </XML>
+      </value>
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="bbcom" />
+  </component>
+  <component name="CopyAsHtmlConfiguration">
+    <option name="_addBorder" value="true" />
+    <option name="_includeWarningHighlights" value="false" />
+    <option name="_mimeTypes" value="3" />
+    <option name="_lineNosStartAt1" value="false" />
+    <option name="_lineNoType" value="follow" />
+    <option name="_unindent" value="false" />
+    <option name="_includePadding" value="true" />
+    <option name="_padding" value="4" />
+    <option name="_fontSizeType" value="follow" />
+    <option name="_fontSize" value="0" />
+    <option name="_tabsToSpaces" value="true" />
+    <option name="_tabSize" value="4" />
+  </component>
+  <component name="CopyFQNPlugin.CopyFQNPlugin">
+    <option name="DEBUG_OUTPUT" value="false" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="true" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="1234" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="60" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="true" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+    <Configuration>
+      <option name="CVS_ROOT" value=":ext:btilford@cabinet.walmart.com:/home/cvs" />
+      <option name="PATH_TO_WORKING_FOLDER" value="" />
+      <option name="PROXY_SETTINGS">
+        <value>
+          <option name="USE_PROXY" value="false" />
+          <option name="PROXY_HOST" value="" />
+          <option name="PROXY_PORT" value="1234" />
+          <option name="TYPE" value="0" />
+          <option name="LOGIN" value="" />
+          <option name="PASSWORD" value="" />
+        </value>
+      </option>
+      <option name="EXT_CONFIGURATION">
+        <value>
+          <option name="CVS_RSH" value="" />
+          <option name="PRIVATE_KEY_FILE" value="" />
+          <option name="ADDITIONAL_PARAMETERS" value="" />
+          <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="true" />
+        </value>
+      </option>
+      <option name="SSH_CONFIGURATION">
+        <value SSH_TYPE="SSH1, SSH2">
+          <option name="USE_PPK" value="false" />
+          <option name="PATH_TO_PPK" value="" />
+        </value>
+      </option>
+      <option name="SSH_FOR_EXT_CONFIGURATION">
+        <value SSH_TYPE="SSH1, SSH2">
+          <option name="USE_PPK" value="false" />
+          <option name="PATH_TO_PPK" value="" />
+        </value>
+      </option>
+      <option name="LOCAL_CONFIGURATION">
+        <value>
+          <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+        </value>
+      </option>
+      <option name="DATE_OR_REVISION_SETTINGS">
+        <value>
+          <option name="BRANCH" value="" />
+          <option name="DATE" value="Wed Oct 13 11:01:04 2010" />
+          <option name="USE_BRANCH" value="false" />
+          <option name="USE_DATE" value="false" />
+        </value>
+      </option>
+    </Configuration>
+    <Configuration>
+      <option name="CVS_ROOT" value=":ext:btilford@btilford@cabinet.walmart.com:/home/cvs" />
+      <option name="PATH_TO_WORKING_FOLDER" value="" />
+      <option name="PROXY_SETTINGS">
+        <value>
+          <option name="USE_PROXY" value="false" />
+          <option name="PROXY_HOST" value="" />
+          <option name="PROXY_PORT" value="1234" />
+          <option name="TYPE" value="0" />
+          <option name="LOGIN" value="" />
+          <option name="PASSWORD" value="" />
+        </value>
+      </option>
+      <option name="EXT_CONFIGURATION">
+        <value>
+          <option name="CVS_RSH" value="" />
+          <option name="PRIVATE_KEY_FILE" value="" />
+          <option name="ADDITIONAL_PARAMETERS" value="" />
+          <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="true" />
+        </value>
+      </option>
+      <option name="SSH_CONFIGURATION">
+        <value SSH_TYPE="SSH1, SSH2">
+          <option name="USE_PPK" value="false" />
+          <option name="PATH_TO_PPK" value="" />
+        </value>
+      </option>
+      <option name="SSH_FOR_EXT_CONFIGURATION">
+        <value SSH_TYPE="SSH1, SSH2">
+          <option name="USE_PPK" value="false" />
+          <option name="PATH_TO_PPK" value="" />
+        </value>
+      </option>
+      <option name="LOCAL_CONFIGURATION">
+        <value>
+          <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+        </value>
+      </option>
+      <option name="DATE_OR_REVISION_SETTINGS">
+        <value>
+          <option name="BRANCH" value="" />
+          <option name="DATE" value="" />
+          <option name="USE_BRANCH" value="false" />
+          <option name="USE_DATE" value="false" />
+        </value>
+      </option>
+    </Configuration>
+  </component>
+  <component name="DBNavigator">
+    <enable-debug-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="VALUE_LOOKUP_DELAY" value="700" />
+    <option name="DEBUGGER_TRANSPORT" value="0" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="DISABLE_JIT" value="false" />
+    <option name="HIDE_DEBUGGER_ON_PROCESS_TERMINATION" value="false" />
+    <option name="HOTSWAP_IN_BACKGROUND" value="true" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="false" />
+    <option name="SKIP_CONSTRUCTORS" value="false" />
+    <option name="SKIP_GETTERS" value="true" />
+    <option name="SKIP_CLASSLOADERS" value="true" />
+    <option name="EVALUATION_DIALOG_TYPE" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapNever" />
+    <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <option name="WATCH_RETURN_VALUES" value="false" />
+    <option name="AUTO_VARIABLES_MODE" value="false" />
+    <option name="SHOW_LIBRARY_STACKFRAMES" value="true" />
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.intellij.rt.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.yourkit.runtime.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="DependencyUISettings">
+    <option name="UI_COMPACT_EMPTY_MIDDLE_PACKAGES" value="false" />
+  </component>
+  <component name="EasyPatch">
+    <option name="patchPath" />
+    <option name="createZipDialogWidth" value="700" />
+    <option name="createZipDialogHeight" value="400" />
+    <option name="putSourcesToPatch" value="true" />
+    <option name="putResourcesToPatch" value="true" />
+  </component>
+  <component name="Error Report Configurable">
+    <option name="JIRA_LOGIN" value="" />
+    <option name="JIRA_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_JIRA_PASSWORD" value="false" />
+  </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="btilford" />
+    <option name="ITN_PASSWORD_CRYPT" value="bWljcm9uaXplZA==" />
+    <option name="KEEP_ITN_PASSWORD" value="true" />
+    <option name="EMAIL" value="" />
+  </component>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="FindSettings">
+    <option name="SEARCH_OVERLOADED_METHODS" value="false" />
+    <option name="SEARCH_IN_LIBRARIES" value="false" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="false" />
+    <option name="FIND_DIRECTION" value="forward" />
+    <option name="FIND_ORIGIN" value="entire_scope" />
+    <option name="FIND_SCOPE" value="global" />
+    <option name="FIND_CUSTOM_SCOPE" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="false" />
+    <option name="PRESERVE_CASE_REPLACE" value="false" />
+    <option name="WHOLE_WORDS_ONLY" value="false" />
+    <option name="COMMENTS_ONLY" value="false" />
+    <option name="STRING_LITERALS_ONLY" value="false" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
+    <option name="REGULAR_EXPRESSIONS" value="false" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
+    <option name="WITH_SUBDIRECTORIES" value="true" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.js" />
+    <option name="RECENT_FIND_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="loginService" />
+          <item index="1" class="java.lang.String" itemvalue="$emit" />
+          <item index="2" class="java.lang.String" itemvalue="{Http" />
+          <item index="3" class="java.lang.String" itemvalue="md5" />
+          <item index="4" class="java.lang.String" itemvalue="@eventType" />
+          <item index="5" class="java.lang.String" itemvalue="loadFromS" />
+          <item index="6" class="java.lang.String" itemvalue="name=&quot;.*_" />
+          <item index="7" class="java.lang.String" itemvalue="passwo" />
+          <item index="8" class="java.lang.String" itemvalue="open" />
+          <item index="9" class="java.lang.String" itemvalue="username" />
+          <item index="10" class="java.lang.String" itemvalue="login()" />
+          <item index="11" class="java.lang.String" itemvalue="legacyLoginModa" />
+          <item index="12" class="java.lang.String" itemvalue="legacyLoginModal" />
+          <item index="13" class="java.lang.String" itemvalue="dialogService" />
+          <item index="14" class="java.lang.String" itemvalue="device" />
+          <item index="15" class="java.lang.String" itemvalue="$scope.g" />
+          <item index="16" class="java.lang.String" itemvalue="call" />
+          <item index="17" class="java.lang.String" itemvalue="isvalid" />
+          <item index="18" class="java.lang.String" itemvalue="the &quot;POS" />
+          <item index="19" class="java.lang.String" itemvalue="isValidComment" />
+          <item index="20" class="java.lang.String" itemvalue="isValid" />
+          <item index="21" class="java.lang.String" itemvalue="busyPosting" />
+          <item index="22" class="java.lang.String" itemvalue="busyPo" />
+          <item index="23" class="java.lang.String" itemvalue="loading" />
+          <item index="24" class="java.lang.String" itemvalue="isVal" />
+          <item index="25" class="java.lang.String" itemvalue="1.2.5" />
+          <item index="26" class="java.lang.String" itemvalue="dist/" />
+          <item index="27" class="java.lang.String" itemvalue="deploy/" />
+          <item index="28" class="java.lang.String" itemvalue="&quot;" />
+          <item index="29" class="java.lang.String" itemvalue="UpdateProductNumbers" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_REPLACE_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="row" />
+          <item index="1" class="java.lang.String" itemvalue="ng-enter" />
+          <item index="2" class="java.lang.String" itemvalue="ng-leave" />
+          <item index="3" class="java.lang.String" itemvalue="animate.ng-leave" />
+          <item index="4" class="java.lang.String" itemvalue="." />
+          <item index="5" class="java.lang.String" itemvalue="description" />
+          <item index="6" class="java.lang.String" itemvalue="sg__fade" />
+          <item index="7" class="java.lang.String" itemvalue="sg_bounce" />
+          <item index="8" class="java.lang.String" itemvalue="bower_components/bb-assets/index" />
+          <item index="9" class="java.lang.String" itemvalue=".Generate__bb-site-nav--row" />
+          <item index="10" class="java.lang.String" itemvalue="translate3d" />
+          <item index="11" class="java.lang.String" itemvalue="bb-assets" />
+          <item index="12" class="java.lang.String" itemvalue="fitboards" />
+          <item index="13" class="java.lang.String" itemvalue="div" />
+          <item index="14" class="java.lang.String" itemvalue="$delegate." />
+          <item index="15" class="java.lang.String" itemvalue="confirm" />
+          <item index="16" class="java.lang.String" itemvalue="' + $rootScope.currentUser.slug + '" />
+          <item index="17" class="java.lang.String" itemvalue="_elm.scope()" />
+          <item index="18" class="java.lang.String" itemvalue="bb.services." />
+          <item index="19" class="java.lang.String" itemvalue="taxonomyCacheFactory" />
+          <item index="20" class="java.lang.String" itemvalue="{string}" />
+          <item index="21" class="java.lang.String" itemvalue="requires" />
+          <item index="22" class="java.lang.String" itemvalue="Breadcrumb" />
+          <item index="23" class="java.lang.String" itemvalue="TaxonomyCache" />
+          <item index="24" class="java.lang.String" itemvalue="LayerFactory" />
+          <item index="25" class="java.lang.String" itemvalue="loginResource" />
+          <item index="26" class="java.lang.String" itemvalue="loginService" />
+          <item index="27" class="java.lang.String" itemvalue="deploy" />
+          <item index="28" class="java.lang.String" itemvalue="deploy/" />
+          <item index="29" class="java.lang.String" itemvalue="'" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_DIR_STRINGS">
+      <value>
+        <list size="30">
+          <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/code/git/community/bodyspace/src/main/java/com/bodybuilding/community/bodyspace/ui/panels/landing" />
+          <item index="1" class="java.lang.String" itemvalue="$USER_HOME$/code/git/community/bodycalendar/bbcomicalsvc" />
+          <item index="2" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-common/BB/APP/plan-landing/app/scripts" />
+          <item index="3" class="java.lang.String" itemvalue="$USER_HOME$/code/git/community/bodyspace/src/main/java/com/bodybuilding/community/bodyspace/ui/panels/motivation/tracking" />
+          <item index="4" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-common/Min" />
+          <item index="5" class="java.lang.String" itemvalue="$USER_HOME$/code/git/community/bodyspace/src/main/java/com/bodybuilding/community/bodyspace/ui/pages/landing" />
+          <item index="6" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-common/BB/APP/plan-landing/app/styles" />
+          <item index="7" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-common/BB/APP/bodyspace-landing/app" />
+          <item index="8" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-common" />
+          <item index="9" class="java.lang.String" itemvalue="$USER_HOME$/code/git/common" />
+          <item index="10" class="java.lang.String" itemvalue="$USER_HOME$/code/git/community" />
+          <item index="11" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/app/bb" />
+          <item index="12" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/app/bb/ui/" />
+          <item index="13" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
+          <item index="14" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace" />
+          <item index="15" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/app" />
+          <item index="16" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page/app/js" />
+          <item index="17" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services/app/js/bb/services/user" />
+          <item index="18" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/styleguide/app" />
+          <item index="19" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/app/bower_components/bootstrap/less" />
+          <item index="20" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services/app" />
+          <item index="21" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/fitboards-app/app/bb/fitboard" />
+          <item index="22" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-build/bb-grunt/grunt-build-info" />
+          <item index="23" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/tests/unit" />
+          <item index="24" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services/app/js/bb/services/taxonomy" />
+          <item index="25" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services/tests/js/unit/specs/services/taxonomy" />
+          <item index="26" class="java.lang.String" itemvalue="$USER_HOME$/Downloads/interviews/angularDemoHttp/app/scripts" />
+          <item index="27" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/app/bb/ui" />
+          <item index="28" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services/app/js/bb/services" />
+          <item index="29" class="java.lang.String" itemvalue="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui/build.d" />
+        </list>
+      </value>
+    </option>
+    <option name="RECENT_FILE_MASKS">
+      <value>
+        <list size="24">
+          <item index="0" class="java.lang.String" itemvalue="*.properties" />
+          <item index="1" class="java.lang.String" itemvalue="*.jsp" />
+          <item index="2" class="java.lang.String" itemvalue="*.php" />
+          <item index="3" class="java.lang.String" itemvalue="*.as" />
+          <item index="4" class="java.lang.String" itemvalue="*.mxml" />
+          <item index="5" class="java.lang.String" itemvalue="*.groovy" />
+          <item index="6" class="java.lang.String" itemvalue=".java" />
+          <item index="7" class="java.lang.String" itemvalue="*.pom" />
+          <item index="8" class="java.lang.String" itemvalue="ostk-config.xml" />
+          <item index="9" class="java.lang.String" itemvalue="*.as, *.mxml" />
+          <item index="10" class="java.lang.String" itemvalue="*.html *.js" />
+          <item index="11" class="java.lang.String" itemvalue="*.html " />
+          <item index="12" class="java.lang.String" itemvalue="*.html, *.js " />
+          <item index="13" class="java.lang.String" itemvalue="java.xml" />
+          <item index="14" class="java.lang.String" itemvalue=".xml" />
+          <item index="15" class="java.lang.String" itemvalue="*.java,*.html" />
+          <item index="16" class="java.lang.String" itemvalue="*.java" />
+          <item index="17" class="java.lang.String" itemvalue="*.xml" />
+          <item index="18" class="java.lang.String" itemvalue="pom.xml" />
+          <item index="19" class="java.lang.String" itemvalue="bower.json" />
+          <item index="20" class="java.lang.String" itemvalue="*.html" />
+          <item index="21" class="java.lang.String" itemvalue="*.css" />
+          <item index="22" class="java.lang.String" itemvalue="*.less" />
+          <item index="23" class="java.lang.String" itemvalue="*.js" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="GlobalAntConfiguration">
+    <filtersTableLayout />
+    <propertiesTableLayout />
+  </component>
+  <component name="HttpConfigurable">
+    <option name="PROXY_TYPE_IS_SOCKS" value="false" />
+    <option name="USE_HTTP_PROXY" value="false" />
+    <option name="USE_PROXY_PAC" value="false" />
+    <option name="PROXY_HOST" value="" />
+    <option name="PROXY_PORT" value="80" />
+    <option name="PROXY_AUTHENTICATION" value="false" />
+    <option name="PROXY_LOGIN" value="" />
+    <option name="PROXY_PASSWORD_CRYPT" value="" />
+    <option name="KEEP_PROXY_PASSWORD" value="false" />
+    <option name="myGenericPasswords">
+      <map />
+    </option>
+    <option name="myGenericCancelled">
+      <set />
+    </option>
+    <option name="PROXY_EXCEPTIONS" value="" />
+    <option name="USE_PAC_URL" value="false" />
+    <option name="PAC_URL" value="" />
+  </component>
+  <component name="ImportFilteringUsageViewSetting">
+    <option name="SHOW_IMPORTS" value="false" />
+  </component>
+  <component name="IntelliJadConfigComponent">
+    <config>
+      <a type="boolean">false</a>
+      <af type="boolean">false</af>
+      <always-exclude-recursively type="boolean">false</always-exclude-recursively>
+      <b type="boolean">true</b>
+      <cleanup-source-roots type="boolean">true</cleanup-source-roots>
+      <clear type="boolean">false</clear>
+      <clear-and-close-console-on-success type="boolean">true</clear-and-close-console-on-success>
+      <create-output-directory type="boolean">false</create-output-directory>
+      <d type="string" />
+      <dead type="boolean">false</dead>
+      <decompile-on-navigation type="string">Never</decompile-on-navigation>
+      <decompile-to-memory type="boolean">true</decompile-to-memory>
+      <dis type="boolean">false</dis>
+      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean">
+        <row>
+          <cell>com.overstock.webdev.media.approval.services.approve</cell>
+          <cell>false</cell>
+          <cell>true</cell>
+        </row>
+      </exclusion-table-model>
+      <f type="boolean">false</f>
+      <ff type="boolean">true</ff>
+      <i type="boolean">false</i>
+      <indentation type="integer">4</indentation>
+      <jad-path type="string">$USER_HOME$/apps/jad/jad158e.linux.intel/jad</jad-path>
+      <l type="integer">64</l>
+      <lnc type="boolean">false</lnc>
+      <lradix type="integer">10</lradix>
+      <nl type="boolean">true</nl>
+      <nocast type="boolean">false</nocast>
+      <noclass type="boolean">false</noclass>
+      <nocode type="boolean">false</nocode>
+      <noconv type="boolean">false</noconv>
+      <noctor type="boolean">false</noctor>
+      <nodos type="boolean">false</nodos>
+      <nofd type="boolean">true</nofd>
+      <noinner type="boolean">false</noinner>
+      <nolvt type="boolean">false</nolvt>
+      <nonlb type="boolean">false</nonlb>
+      <o type="boolean">false</o>
+      <pa type="string" />
+      <pc type="string">_cls</pc>
+      <pe type="string">_ex</pe>
+      <pf type="string">_fld</pf>
+      <pl type="string">_lcl</pl>
+      <pm type="string">_mth</pm>
+      <pp type="string">_prm</pp>
+      <pv type="integer">3</pv>
+      <r type="boolean">false</r>
+      <radix type="integer">10</radix>
+      <read-only type="boolean">false</read-only>
+      <reformat-style type="string">Preferred-Style</reformat-style>
+      <s type="string">java</s>
+      <safe type="boolean">false</safe>
+      <sort type="boolean">false</sort>
+      <space type="boolean">true</space>
+      <stat type="boolean">false</stat>
+      <t type="boolean">false</t>
+      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
+      <v type="boolean">false</v>
+    </config>
+  </component>
+  <component name="JavaDocSyncPlugin">
+    <option name="checkInnerClasses" value="true" />
+    <option name="checkAnonymousClasses" value="true" />
+    <option name="methodDetectionLevel" value="private" />
+  </component>
+  <component name="JavascriptSqueezer">
+    <option name="prefix" value="_min_" />
+    <option name="showToolbar" value="true" />
+    <option name="newLines" value="true" />
+  </component>
+  <component name="KeyPromoter.Config">
+    <option name="textColor" value="0" />
+    <option name="borderColor" value="ff0000" />
+    <option name="backgroundColor" value="202040" />
+    <option name="menusEnabled" value="false" />
+    <option name="toolbarButtonsEnabled" value="false" />
+    <option name="toolWindowButtonsEnabled" value="false" />
+    <option name="allButtonsEnabled" value="false" />
+    <option name="displayTime" value="2000" />
+    <option name="flashAnimationDelay" value="150" />
+    <option name="proposeToCreateShortcutCount" value="16" />
+    <option name="fixedTipPosistion" value="true" />
+    <option name="popupTemplate" value="&lt;html&gt;&#10; &lt;body&gt;&#10;  &lt;table&gt;&#10;   &lt;tr&gt;&#10;    &lt;td align=&quot;center&quot;&gt;&lt;font size=8&gt;{0}&lt;/font&gt;&lt;/td&gt;&#10;   &lt;/tr&gt;&#10;   &lt;tr&gt;&#10;    &lt;td align=&quot;center&quot;&gt;&lt;font size=6&gt;{1} time(s)&lt;/font&gt;&lt;/td&gt;&#10;   &lt;/tr&gt;&#10;  &lt;/table&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;" />
+  </component>
+  <component name="MavenBuildApplicationComponent">
+    <option name="mavenExecutable" value="/usr/share/maven/latest" />
+    <option name="Settings File" value="$USER_HOME$/.m2/settings.xml" />
+    <option name="mavenCommandLineParams" value="" />
+    <option name="vmOptions" value="-XX:NewRatio=2 -Xmx1048m -Xms128m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:GCPauseIntervalMillis=100 -XX:+G1YoungGenSize=64m -XX:+G1ParallelRSetUpdatingEnabled -XX:+G1ParallelRSetScanningEnabled" />
+    <option name="mavenRepository" value="" />
+    <option name="scanForExistingPoms" value="false" />
+    <option name="Batch Mode" value="false" />
+    <option name="Check Plugin Updates" value="false" />
+    <option name="Debug" value="false" />
+    <option name="Errors" value="false" />
+    <option name="Fail At End" value="false" />
+    <option name="Fail Fast" value="false" />
+    <option name="Fail Never" value="false" />
+    <option name="Lax Checksums" value="false" />
+    <option name="No Plugin Registry" value="false" />
+    <option name="No Plugin Updates" value="false" />
+    <option name="Non Recursive" value="false" />
+    <option name="Offline" value="false" />
+    <option name="Reactor" value="false" />
+    <option name="Strict Checksums" value="false" />
+    <option name="Update Plugins" value="false" />
+    <option name="Update Snapshots" value="false" />
+    <option name="Skip Tests" value="false" />
+  </component>
+  <component name="NativeNeighbourhoodPlugin">
+    <iconsDir value="windows" />
+    <executeWithDefaultAppCommand value="rundll32.exe url.dll,FileProtocolHandler $FilePath$" tokenizerDelims="" />
+    <showInFileManagerCommand value="explorer.exe /select,$FilePath$" tokenizerDelims="" />
+    <openCommandShellInCommand value="cmd /c &quot;$PluginsHome$\NativeNeighbourhood\classes\org\intellij\plugins\nativeNeighbourhood\icons\windows\cmd.bat&quot;" tokenizerDelims="" />
+    <selectInFileManagerName value="Windows Explorer" />
+    <nativeExtensions value="" />
+  </component>
+  <component name="Network Tools">
+    <option name="commonports" value="&lt;ports&gt;&lt;port port=&quot;20&quot; desc=&quot;FTP (File Transfer Protocol) - Data&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;21&quot; desc=&quot;FTP (File Transfer Protocol) - Control&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;22&quot; desc=&quot;SSH (ssh, scp copy or sftp)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;23&quot; desc=&quot;Telnet&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;25&quot; desc=&quot;SMTP (for sending outgoing emails)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;34&quot; desc=&quot;Remote File (RF)—used to transfer files between machines&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;37&quot; desc=&quot;TIME protocol&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;42&quot; desc=&quot;WINS&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;43&quot; desc=&quot;WHOIS function&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;53&quot; desc=&quot;DNS Server (Domain name service for DNS requests)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;67&quot; desc=&quot;DHCP Server&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;68&quot; desc=&quot;DHCP Client&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;70&quot; desc=&quot;Gopher Protocol&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;79&quot; desc=&quot;Finger protocol&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;80&quot; desc=&quot;HTTP default port&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;110&quot; desc=&quot;POP3 (for receiving email)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;119&quot; desc=&quot;NNTP (Network News Transfer Protocol)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;143&quot; desc=&quot;IMAP4 Protocol (for email service)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;194&quot; desc=&quot;IRC&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;389&quot; desc=&quot;LDAP (light weight directory access)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;443&quot; desc=&quot;Secure HTTP over SSL (https)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;465&quot; desc=&quot;Secure SMTP (email) using SSL&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;990&quot; desc=&quot;Secure FTP using SSL&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;993&quot; desc=&quot;Secure IMAP protocol over SSL (for emails)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;1433&quot; desc=&quot;Microsoft SQL server&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;1521&quot; desc=&quot;Oracle database server&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;2082&quot; desc=&quot;Cpanel default port&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;2083&quot; desc=&quot;Cpanel over SSL&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;2222&quot; desc=&quot;DirectAdmin Server Control Panel&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;3306&quot; desc=&quot;MySQL Database Server&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;4643&quot; desc=&quot;Virtuosso Power Panel&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;5432&quot; desc=&quot;PostgreSQL Database Server&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;8080&quot; desc=&quot;HTTP port (alternative one for port 80)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;8087&quot; desc=&quot;Plesk Control Panel Port (default)&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;8443&quot; desc=&quot;Plesk Server Control Panel over SSL&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;9999&quot; desc=&quot;Urchin Web Analytics&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;10000&quot; desc=&quot;Webmin Server Control Panel&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;19638&quot; desc=&quot;Ensim Server Control Panel&quot; scan=&quot;Y&quot; /&gt;&lt;port port=&quot;49152&quot; desc=&quot;MediaTomb UPnP server&quot; scan=&quot;Y&quot; /&gt;&lt;/ports&gt;" />
+  </component>
+  <component name="PropertiesSeparatorManager">
+    <file url="file://$USER_HOME$/work/ab-test/ui/war/src/main/resources/log4j.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/PromoManager/PromoManager-webapp/src/main/resources/log4j.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/PromoManager/PromoManager-rpm/src/main/resources/opt/PromoManager/catalina/conf/PromoManager-webapp-log4j.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/PromoManager/PromoManager-integration-tests/src/test/resources/log4j.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/partner-connect-merge/PartnerConnect/PartnerConnect-rpm/src/main/resources/opt/PartnerConnect/catalina/conf/log4j.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/ab-test/ui/common/src/main/java/com/overstock/webdev/abtest/package.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/work/ab-test/ui/common/src/test/resources/log4j.properties" separator="\u002e" />
+  </component>
+  <component name="PsiViewer.Settings">
+    <option name="HIGHLIGHT_COLOR" value="162 3 229 32" />
+    <option name="PLUGIN_ENABLED" value="true" />
+  </component>
+  <component name="Quick Notes by Jitendra Rana">
+    <option name="enotes" value="" />
+    <option name="selectednoteindex" value="0" />
+  </component>
+  <component name="RavenConfiguration">
+    <option name="LOCAL_REPOSITORY" value="$USER_HOME$/.maven/repository" />
+    <option name="REMOTE_REPOSITORIES" value="http://www.ibiblio.org/maven/;" />
+  </component>
+  <component name="Rearranger">
+    <Rearranger KeepGettersSettersTogether="true" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="true" ConfirmBeforeRearranging="true" RearrangeInnerClasses="true" globalCommentPattern="" overloadedOrder="1" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="false" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="false">
+      <Items>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="true" invert="false" />
+          <NameMatch match="true" invert="false" pattern="serialVersionUID" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="true" invert="false" pattern="long" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="true" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="true" protected="true" package="true" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="true" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="true" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="false" invert="false" pattern="" />
+        </Field>
+        <Interface alphabetizeInterfaces="true" noExtractedMethods="false" methodOrder="2" priority="1" fillString="" useProjectWidthForFill="true" fillWidth="0">
+          <NameMatch match="false" invert="false" pattern="" />
+          <PrecedingComment>
+            <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+          </PrecedingComment>
+          <TrailingComment>
+            <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+          </TrailingComment>
+        </Interface>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="true" protected="true" package="true" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="true" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="true" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="true" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="true" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="true" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="true" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="true" invert="true" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="true" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="true" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="true" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="true" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="true" protected="true" package="true" invert="false" />
+          <Static value="true" invert="true" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="true" invert="true" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="true" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="true" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="false" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="true" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <InnerClass priority="1">
+          <ProtectionLevel public="false" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="false" invert="false" pattern="" />
+          <SortOptions byModifiers="true" byType="true" isTypeCaseInsensitive="true" byName="true" isNameCaseInsensitive="true" />
+          <Abstract value="false" invert="false" />
+          <Enum value="false" invert="false" />
+        </InnerClass>
+        <Method priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="true" invert="false" pattern="compareTo" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <Abstract value="false" invert="false" />
+          <Native value="false" invert="false" />
+          <Synchronized value="false" invert="false" />
+          <Overridden value="false" invert="false" />
+          <Overriding value="false" invert="false" />
+          <Implemented value="true" invert="false" />
+          <Implementing value="false" invert="false" />
+          <Initializer value="false" invert="false" />
+          <ReturnTypeMatch match="false" invert="false" pattern="" />
+          <MIN_PARAMS match="false" opType="0" value="0" />
+          <MAX_PARAMS match="false" opType="1" value="0" />
+          <Misc constructorMethod="false" getterSetter="false" canonicalMethod="false" otherMethod="false" invertMethod="false" noExtractedMethods="false" />
+          <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+        </Method>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="true" invert="false" pattern="equals" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="true" invert="false" pattern="boolean" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="true" invert="false" pattern="hashCode" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="true" invert="false" pattern="int" />
+        </Field>
+        <Field priority="1">
+          <ProtectionLevel public="true" private="false" protected="false" package="false" invert="false" />
+          <Static value="false" invert="false" />
+          <Final value="false" invert="false" />
+          <NameMatch match="true" invert="false" pattern="toString" />
+          <SortOptions byModifiers="false" byType="false" isTypeCaseInsensitive="false" byName="false" isNameCaseInsensitive="false" />
+          <InitializedToAnonymousClass value="false" invert="false" />
+          <Transient value="false" invert="false" />
+          <Volatile value="false" invert="false" />
+          <TypeMatch match="true" invert="false" pattern="String" />
+        </Field>
+      </Items>
+      <Classes />
+      <DefaultGetterSetterDefinition>
+        <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+      </DefaultGetterSetterDefinition>
+      <RelatedMethods moveExtractedMethods="false" belowFirstCaller="true" depthFirstOrdering="true" ordering="0" nonPrivateTreatment="2" commentType="0" fillString="" useProjectWidthForFill="true" fillWidth="0">
+        <PrecedingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </PrecedingComment>
+        <TrailingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </TrailingComment>
+      </RelatedMethods>
+      <AfterClassLBrace Force="true" nBlankLines="0" />
+      <AfterClassRBrace Force="true" nBlankLines="0" />
+      <BeforeClassRBrace Force="true" nBlankLines="1" />
+      <BeforeMethodLBrace Force="true" nBlankLines="0" />
+      <AfterMethodLBrace Force="false" nBlankLines="0" />
+      <AfterMethodRBrace Force="false" nBlankLines="0" />
+      <BeforeMethodRBrace Force="false" nBlankLines="0" />
+      <NewlinesAtEOF Force="false" nBlankLines="0" />
+    </Rearranger>
+  </component>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
+        <option value="$USER_HOME$/code/git/puppet" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-util" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/fitboards-app" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-services" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/store-wrapper" />
+        <option value="$USER_HOME$/code/git/appproperties" />
+        <option value="$USER_HOME$/Downloads/interviews/dan-freeman" />
+        <option value="$USER_HOME$/Downloads/interviews/sthilberg_products_code_challenge" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-build/artifacts-deploy" />
+        <option value="/tmp/ga" />
+        <option value="$USER_HOME$/Downloads/interviews/bb-code-challenge" />
+        <option value="$USER_HOME$/Downloads/interviews/angularDemoHttp" />
+        <option value="$USER_HOME$/Downloads/interviews/CSE Coding Challenge" />
+        <option value="/tmp/CSE Coding Challenge" />
+        <option value="/tmp" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-common/bb-js" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-build/bb-grunt/grunt-build-info" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/uploader-app" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/gallery-app" />
+        <option value="$USER_HOME$/code/git/assets" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-common" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/workout-tracker-app" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <JIRA shared="false" url="https://jira.overstock.com">
+      <option name="apiType" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password>df82dff6dfdddfd6dff6dffddf83dfd1df92df86dfd7</password>
+      <option name="jiraVersion" />
+      <option name="loginAnonymously" value="false" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username>btilford</username>
+    </JIRA>
+    <JIRA shared="false" url="http://jira">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password>dffedf8bdfc6dfccdf9adfd8dfcedf98df93df9fdf9d</password>
+      <option name="jiraVersion" value="6.2.1" />
+      <option name="loginAnonymously" value="false" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>ben.tilford</username>
+    </JIRA>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FIELD" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_VARIABLE" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="MOVE_SEARCH_FOR_TEXT" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+    <option name="EXTRACT_INTERFACE_JAVADOC" value="2" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+    <option name="RENAME_INHERITORS" value="false" />
+    <option name="RENAME_VARIABLES" value="false" />
+    <option name="RENAME_TESTS" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="ide.mac.message.dialogs.as.sheets" value="true" />
+    <entry key="ide.firstStartup" value="false" />
+  </component>
+  <component name="RemoteTailSettings">
+    <connections>
+      <connection host="" port="0" username="" password="" filePath="" />
+    </connections>
+    <setting name="audioClipPath" value="" />
+    <setting name="bufferSize" value="1000" />
+  </component>
+  <component name="SSHPasswordProvider">
+    <passwords>
+      <password CVSROOT=":ext:btilford@cabinet.walmart.com:/home/cvs" PASSWORD="AS,4Kw1&quot;" />
+      <password CVSROOT=":ext:btilford@cabinet.walmart.com:/home/cvs/" PASSWORD="AS,4Kw1&quot;" />
+    </passwords>
+    <ppkpasswords />
+  </component>
+  <component name="SVN bar">
+    <add>true</add>
+    <remove>true</remove>
+    <revert>true</revert>
+    <edit>true</edit>
+    <unedit>true</unedit>
+    <commit>true</commit>
+    <update>true</update>
+    <checkout>true</checkout>
+    <diffLast>true</diffLast>
+    <showHistory>true</showHistory>
+    <hide>false</hide>
+    <updateBeforeEdit>false</updateBeforeEdit>
+    <annotate>true</annotate>
+    <showProperties>true</showProperties>
+    <diffMode>SELECTED</diffMode>
+  </component>
+  <component name="SbtSettings">
+    <option name="sbtLauncherJarPath" value="/opt/sbt/sbt-launch.jar" />
+  </component>
+  <component name="SelectProjectTemplateSettings">
+    <option name="LAST_TEMPLATE" value="Java/Maven Module" />
+  </component>
+  <component name="SequencePlugin.Configuration">
+    <option name="CLASS_COLOR" value="cccc00" />
+    <option name="EXTERNAL_CLASS_COLOR" value="ff6666" />
+    <option name="METHOD_BAR_COLOR" value="9999ff" />
+    <option name="SELECTED_METHOD_BAR_COLOR" value="3399ff" />
+    <option name="USE_3D_VIEW" value="false" />
+    <option name="USE_ANTIALIASING" value="true" />
+    <option name="SHOW_RETURN_ARROWS" value="true" />
+    <option name="SHOW_CALL_NUMBERS" value="true" />
+    <option name="FONT_NAME" value="Dialog" />
+    <option name="FONT_SIZE" value="11" />
+    <excludeList />
+  </component>
+  <component name="Struts Assistant">
+    <option name="autoscrollToSource" value="false" />
+    <option name="autoscrollFromSource" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://scm.overstock.com/repos/WEB/scratch" />
+        <option value="https://scm.overstock.com/repos/WEB/SAPI" />
+        <option value="https://scm.overstock.com/repos/WEB/Merchandising/" />
+        <option value="https://svn02.overstock.com/repos/WEB/ta/" />
+        <option value="https://scm.overstock.com/repos/WEB/webdev" />
+        <option value="https://scm.overstock.com/repos/WEB/istruct" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://scm.overstock.com/repos/WEB/scratch" />
+        <option value="https://scm.overstock.com/repos/WEB/SAPI" />
+        <option value="https://scm.overstock.com/repos/WEB/sapi" />
+        <option value="https://scm.overstock.com/repos/WEB/Merchandising/" />
+        <option value="https://svn02.overstock.com/repos/WEB/ta/" />
+        <option value="https://scm.overstock.com/repos/WEB/webdev" />
+        <option value="https://scm.overstock.com/repos/WEB/istruct" />
+        <option value="http://localhost/svn/tilford.info" />
+        <option value="https://svn.polarislabs.com:8443/svn/horizon-4" />
+        <option value="https://svn.polarislabs.com:8443/svn" />
+      </list>
+    </option>
+  </component>
+  <component name="TabdirConfiguration">
+    <option name="charsInName" value="5" />
+    <option name="countMaxDirsFromStart" value="true" />
+    <option name="dirSeparator" value="|" />
+    <option name="filesExtensions" value="java&#10;groovy" />
+    <option name="maxDirsToShow" value="3" />
+    <option name="projectConfigEnabled" value="false" />
+    <option name="reduceDirNames" value="true" />
+    <option name="relativeTo" />
+    <option name="removeDuplicates" value="false" />
+    <option name="titleFormat" value="[{0}] {1}" />
+    <option name="useExtensions" value="Do not use" />
+  </component>
+  <component name="TemplateSettings">
+    <defaultShortcut shortcut="TAB" />
+  </component>
+  <component name="TimeTrackerPlugin">
+    <taskList>
+      <task description="HORIZON-1549" category="Feature" priority="HIGH" project="polaris" totalDuration="6127000" maxDuration="-1" progress="0.0">
+        <workday day="1269835200000" duration="6127000" />
+        <startDate>1269835200000</startDate>
+        <finishDate>1269835200000</finishDate>
+      </task>
+    </taskList>
+    <currentTask description="HORIZON-1549" />
+    <idlingTime>477505000</idlingTime>
+    <globalTime>483632000</globalTime>
+    <filters />
+    <dateRange start="1268798400000" end="1268798400000" enabled="false" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      <option name="EFFECT_TYPE" value="0" />
+    </pattern>
+  </component>
+  <component name="UpdatesConfigurable">
+    <option name="myPluginHosts">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="myKnownUpdateChannels">
+      <value>
+        <list size="10">
+          <item index="0" class="java.lang.String" itemvalue="WI1" />
+          <item index="1" class="java.lang.String" itemvalue="WI2" />
+          <item index="2" class="java.lang.String" itemvalue="WI3" />
+          <item index="3" class="java.lang.String" itemvalue="WI4" />
+          <item index="4" class="java.lang.String" itemvalue="WI5" />
+          <item index="5" class="java.lang.String" itemvalue="WS6" />
+          <item index="6" class="java.lang.String" itemvalue="WS7" />
+          <item index="7" class="java.lang.String" itemvalue="WS8" />
+          <item index="8" class="java.lang.String" itemvalue="WS9" />
+          <item index="9" class="java.lang.String" itemvalue="EAP" />
+        </list>
+      </value>
+    </option>
+    <option name="myIgnoredBuildNumbers">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="CHECK_NEEDED" value="true" />
+    <option name="LAST_TIME_CHECKED" value="1414081711670" />
+    <option name="LAST_BUILD_CHECKED" value="WS-135.1297" />
+    <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+  <component name="UsageViewSettings">
+    <option name="expanded" value="true" />
+    <option name="IS_EXPANDED" value="true" />
+    <option name="GROUP_BY_MODULE" value="false" />
+    <option name="GROUP_BY_PACKAGE" value="false" />
+    <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
+    <option name="GROUP_BY_SCOPE" value="true" />
+  </component>
+  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" PathToXmlBeans="$USER_HOME$/.IntelliJIdea10/system/webservices/xmlbeans-2.3.0" RestClientHost="http://localhost:9998" ASK_TO_INSTALL_SOAPUI="true" />
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="attributes">
+      <TextAttributes>
+        <option name="effectType" />
+      </TextAttributes>
+    </option>
+    <option name="contextAttributes">
+      <TextAttributes>
+        <option name="effectType" />
+      </TextAttributes>
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <resource url="http://maven.apache.org/POM/4.0.0" location="$USER_HOME$/.WebStorm8/system/extResources/e1f42d95_maven-4.0.0.xsd" />
+    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2" location="$USER_HOME$/.WebStorm8/system/extResources/48b8f268_assembly-1.1.2.xsd" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Ignore spaces" />
+  <component name="com.intellij.psi.impl.source.codeStyle.CodeStyleSchemesImpl">
+    <option name="CURRENT_SCHEME_NAME" value="polaris-intellij-code-style" />
+  </component>
+</application>
