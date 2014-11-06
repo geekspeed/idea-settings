@@ -14,5 +14,7 @@
     <property name="FileTemplates.CurrentTab" value="Templates" />
     <property name="FileTemplates.SelectedTemplate" value="AMD JavaScript File" />
     <property name="installation.uid" value="d39bd8c4-2cc5-4393-a753-0989f41d6ca4" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="FindSplitterProportion" value="0.25" />
   </component>
 </application>

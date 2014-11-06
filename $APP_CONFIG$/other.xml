@@ -1052,8 +1052,8 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
         <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
+        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
         <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
         <option value="$USER_HOME$/code/git/puppet" />
         <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-util" />
@@ -1083,10 +1083,9 @@
       <list>
         <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bb-ui" />
         <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
-        <option value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/git/bbcomcdn-bodyspace/bodyspace-landing-page" />
+    <option name="lastPath" value="$USER_HOME$/code/git/bbcomcdn-bodyspace/adonis-app" />
   </component>
   <component name="RecentProjectsManager">
     <option name="recentPaths">
