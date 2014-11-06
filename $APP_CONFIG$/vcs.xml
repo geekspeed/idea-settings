@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="Git.Application.Settings">
     <option name="myPathToGit" value="/usr/bin/git" />
@@ -30,7 +31,5 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Downloads/interviews" />
   </component>
-  <component name="HgGlobalSettings">
-    <option name="myHgExecutable" value="hg" />
-  </component>
 </application>
+

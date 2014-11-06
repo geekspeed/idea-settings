@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
@@ -41,7 +42,7 @@
       <component name="ProjectModuleManager">
         <modules />
       </component>
-      <component name="ProjectRootManager" version="2" />
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" />
       <component name="PropertiesComponent">
         <property name="GoToClass.includeLibraries" value="false" />
         <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -63,3 +64,4 @@
     </defaultProject>
   </component>
 </application>
+
